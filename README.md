@@ -27,7 +27,7 @@ Edit the send.php to your on/off codes and save
 sudo nano send.php
 ```
 
-Browse to Raspberry Pi's ip address http://<your-pi-ip>/
+Browse to Raspberry Pi's ip address http://x.x.x.x/
 
 You should be able to turn off the sockets on/off as long as your codes were properly edited
 
@@ -43,8 +43,7 @@ You should be able to turn off the sockets on/off as long as your codes were pro
 - [433mhz LED Concepts Wireless Light Bulb Socket 3-pack $18.99](http://amzn.to/1IyRBf4)
 
 
-if you are in the UK 
-
+######in the UK:
 - [Status SREMSOC3PK3 Remote Control Socket](http://amzn.to/1cymoec) 
 
 - [Generic 1 Set Of 433Mhz RF Wireless Transmitter And Receiver Module](http://amzn.to/1G7WObR) 
