@@ -8,6 +8,7 @@ This will be used in cheap home automation using a Raspberry Pi.  You will need 
 [Raspberry Pi 2 Model B - 1GB RAM/900 MHz CPU $44.99](http://amzn.to/1e2pbgO)
 
 [SMAKN 433Mhz Rf Transmitter and Receiver Link Kit $6.66](http://amzn.to/1E6wtoC)  
+
 [40P dupont cable 200mm male to female $2.26](http://amzn.to/1E6AOYM)
 
 [433Mhz Etekcity Plug Outlet 5-Pack $29.99 (sometimes on sale for $22)](http://amzn.to/1ICejS6)
