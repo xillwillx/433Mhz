@@ -2,11 +2,18 @@
 Code to sniff and send 433Mhz RF signals to outlets and bulb sockets. Based off the code from [ninjablocks](https://github.com/ninjablocks/433Utils)
 
 This will be used in cheap home automation using a Raspberry Pi.  You will need to install [Apache, PHP](http://www.raspberrypi.org/documentation/remote-access/web-server/apache.md) & [WiringPi](https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install) on your Pi first. 
- Consult [Wiring Pi wiring guide](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) and [433mhz  wiring diagram](http://i.imgur.com/0BNjG2Y.png) for more info.
+ Consult [Wiring Pi wiring guide](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) and [433mhz  wiring diagram](http://i.imgur.com/0BNjG2Y.png) & [here](http://i.imgur.com/FfZB7Se.jpg) for more info.
 
 ###Install Instructions: 
 ```
-sudo git clone https://github.com/xillwillx/433Mhz.git 
+sudo apt-get install git
+sudo apt-get install git-core
+git clone git://git.drogon.net/wiringPi
+cd wiringPi
+git pull origin
+./build
+
+git clone https://github.com/xillwillx/433Mhz.git 
 cd 433Mhz
 sudo make all
 sudo chown root.root codesend RFSniffer
