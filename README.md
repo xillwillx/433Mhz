@@ -48,11 +48,3 @@ You should be able to turn off the sockets on/off as long as your codes were pro
 - [433Mhz Etekcity Plug Outlet 5-Pack $29.99 (sometimes on sale for $22)](http://amzn.to/1ICejS6)
 
 - [433mhz LED Concepts Wireless Light Bulb Socket 3-pack $18.99](http://amzn.to/1IyRBf4)
-
-
-######in the UK:
-- [Status SREMSOC3PK3 Remote Control Socket](http://amzn.to/1cymoec) 
-
-- [Generic 1 Set Of 433Mhz RF Wireless Transmitter And Receiver Module](http://amzn.to/1G7WObR) 
-
-- [40P Conductor Male to Female Jumper Wire 20CM](http://amzn.to/1IyZoJI)
