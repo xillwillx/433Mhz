@@ -16,12 +16,19 @@ sudo rm -rf /433Mhz
 cd /var/www/
 ```
 RFSniffer to find RF codes for your devices
-Run: sudo ./RFSniffer
+```
+sudo ./RFSniffer
+```
 
 Record all 6 digit and pulse codes for on/off for each EtekCity plug outlet, if using the bulb sockets you will only get 1 digit and pulse code for on/off.
 
-Edit the send.php to your on/off codes
+Edit the send.php to your on/off codes and save 
+```
+sudo nano send.php
+```
+
 Browse to Raspberry Pi ip address ‘http://<your-pi-ip>/
+
 You should be able to turn off the sockets on/off as long as your codes were properly edited
 
 ###Stuff to buy:
