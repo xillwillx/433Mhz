@@ -20,18 +20,18 @@ sudo chown root.root codesend RFSniffer
 sudo chmod 4755 codesend RFSniffer
 sudo mv codesend RFSniffer index.html send.php /var/www/
 cd ..
-rm -rf /433Mhz
+rm -rf 433Mhz/
 cd /var/www/
 sudo mkdir img
 sudo wget http://i.imgur.com/BwoDozz.png -O /var/www/img/on.png
 sudo wget http://i.imgur.com/OE7pxUG.png -O /var/www/img/off.png
 ```
-RFSniffer to find RF codes for your devices
+execute RFSniffer to find RF codes for your devices
 ```
 sudo ./RFSniffer
 ```
 
-Record all 6 digit and pulse codes for on/off for each EtekCity plug outlet, if using the bulb sockets you will only get 1 digit and pulse code for on/off.
+Press the buttons on your remote and record all 6 digit and pulse codes for on/off for each EtekCity plug outlet, if using the bulb sockets you will only get 1 digit and pulse code for on/off.
 
 Edit the send.php to your on/off codes and save 
 ```
