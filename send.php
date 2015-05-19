@@ -2,10 +2,11 @@
 $rfPath = '/var/www/codesend ';
 $outletLight = $_POST['outletId'];
 $outletStatus = $_POST['outletStatus'];
+$pulse = ('195');
 if ($outletLight == "1" && $outletStatus == "on") {
     $rfCodes = array(349491);
 } else if ($outletLight == "1" && $outletStatus == "off") {
-    $rfCodes = array(349500);
+    $rfCodes = array(349635);
 } else if ($outletLight == "2" && $outletStatus == "on") {
     $rfCodes = array(349635);
 } else if ($outletLight == "2" && $outletStatus == "off") {
@@ -28,7 +29,8 @@ if ($outletLight == "1" && $outletStatus == "on") {
         $rfCodes = array(349500, 349644, 349964, 351500, 357644);
 }
 foreach ($rfCodes as $rfCode) {
-        shell_exec($rfPath . $rfCode);
+        $result = "$rfPath $rfCode $pulse";
+        shell_exec($result);
         sleep(1);
 }
 echo json_encode(array('success' => true));
