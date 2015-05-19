@@ -1,4 +1,4 @@
-all: send codesend RFSniffer
+all: codesend RFSniffer
 
 codesend: RCSwitch.o codesend.o
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $+ -o $@ -lwiringPi
