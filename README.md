@@ -3,6 +3,9 @@ Code to sniff and send 433Mhz RF signals to outlets and bulb sockets. Based off 
 
 This will be used in cheap home automation using a Raspberry Pi.  You will need to install [Apache, PHP](http://www.raspberrypi.org/documentation/remote-access/web-server/apache.md) & [WiringPi](https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install) on your Pi first. 
  Consult [Wiring Pi wiring guide](https://projects.drogon.net/raspberry-pi/wiringpi/pins/) and [433mhz  wiring diagram](http://i.imgur.com/0BNjG2Y.png) & [here](http://i.imgur.com/FfZB7Se.jpg) for more info.
+ 
+ [![Demo CountPages alpha](http://i.imgur.com/dRGI0ZM.gif)](https://www.youtube.com/watch?v=wn9a_41_9YY)
+
 
 ###Install Instructions: 
 ```
@@ -18,13 +21,10 @@ cd 433Mhz
 make
 sudo chown root.root codesend RFSniffer
 sudo chmod 4755 codesend RFSniffer
-sudo mv codesend RFSniffer index.html send.php /var/www/
+sudo mv codesend RFSniffer index.html send.php img/ /var/www/
 cd ..
 rm -rf 433Mhz/
 cd /var/www/
-sudo mkdir img
-sudo wget http://i.imgur.com/BwoDozz.png -O /var/www/img/on.png
-sudo wget http://i.imgur.com/OE7pxUG.png -O /var/www/img/off.png
 ```
 execute RFSniffer to find RF codes for your devices
 ```
