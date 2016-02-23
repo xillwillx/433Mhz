@@ -20,12 +20,12 @@ git pull origin
 git clone https://github.com/xillwillx/433Mhz.git 
 cd 433Mhz
 make
-sudo chown root.root codesend RFSniffer
-sudo chmod 4755 codesend RFSniffer
 sudo mv codesend RFSniffer index.html send.php img/ /var/www/html/
 cd ..
 rm -rf 433Mhz/
 cd /var/www/html/
+sudo chown root.root codesend RFSniffer
+sudo chmod 4755 codesend RFSniffer
 ```
 execute RFSniffer to find RF codes for your devices
 ```
