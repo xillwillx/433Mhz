@@ -22,10 +22,10 @@ cd 433Mhz
 make
 sudo chown root.root codesend RFSniffer
 sudo chmod 4755 codesend RFSniffer
-sudo mv codesend RFSniffer index.html send.php img/ /var/www/
+sudo mv codesend RFSniffer index.html send.php img/ /var/www/html/
 cd ..
 rm -rf 433Mhz/
-cd /var/www/
+cd /var/www/html/
 ```
 execute RFSniffer to find RF codes for your devices
 ```
