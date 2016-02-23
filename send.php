@@ -1,5 +1,5 @@
 <?php
-$rfPath = '/var/www/codesend ';
+$rfPath = '/var/www/html/codesend ';
 $outletLight = $_POST['outletId'];
 $outletStatus = $_POST['outletStatus'];
 $pulse = ('195');
