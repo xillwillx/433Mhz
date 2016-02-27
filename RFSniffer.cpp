@@ -1,6 +1,7 @@
 #include "RCSwitch.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 RCSwitch mySwitch;
 
@@ -14,28 +15,18 @@ int main(int argc, char *argv[]) {
      mySwitch = RCSwitch();
      mySwitch.enableReceive(PIN);  // Receiver on interrupt 0 => that is pin #2
 
-
-     while(1) {
-
+     bool CODE_RECEIVED = false;
+     while(!CODE_RECEIVED) {
       if (mySwitch.available()) {
 
         int value = mySwitch.getReceivedValue();
 
-        if (value == 0) {
-             printf("Unknown encoding");
-        } else {
-             printf("Received %i\n", mySwitch.getReceivedValue() );
-	           printf("Received pulse %i\n", mySwitch.getReceivedDelay() );
+        if (value != 0) {
+             printf("%i,%i", value, mySwitch.getReceivedDelay());
+             CODE_RECEIVED = true;
         }
-
         mySwitch.resetAvailable();
-
       }
-
-
   }
-
   exit(0);
-
-
 }
