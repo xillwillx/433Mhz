@@ -1,3 +1,6 @@
+Account moved to: https://gitlab.com/illwill 
+
+
 # 433Mhz
 Code to sniff and send 433Mhz RF signals to outlets and bulb sockets. Based off the code from [ninjablocks](https://github.com/ninjablocks/433Utils) & [timleland](https://github.com/timleland/rfoutlet). Uses a web inteface to send codes to plugs/lights. The webcode is default for the 5pk Etekcity plugs so adjust accordingly if you are using the light sockets.
 
